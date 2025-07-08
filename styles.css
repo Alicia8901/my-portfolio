@@ -1,0 +1,50 @@
+/* === ANIMATIONS === */
+.fade-in {
+ opacity: 0;
+ transform: translateY(20px);
+ animation: fadeInUp 0.8s ease-out forwards;
+}
+.fade-delay-1 {
+ animation-delay: 0.3s;
+}
+.fade-delay-2 {
+ animation-delay: 0.6s;
+}
+.fade-delay-3 {
+ animation-delay: 0.9s;
+}
+
+@keyframes fadeInUp {
+ to {
+   opacity: 1;
+   transform: translateY(0);
+ }
+}
+
+a, .project-card {
+ transition: all 0.3s ease;
+}
+
+a:hover, .skills-list li:hover {
+ transform: scale(1.05);
+ color: #1a59d9;
+}
+
+.skills-list li {
+ transition: transform 0.3s ease;
+ cursor: default;
+}
+
+.hero h1, .tagline {
+ animation: slideFade 1.2s ease-out forwards;
+}
+@keyframes slideFade {
+ 0% {
+   opacity: 0;
+   transform: translateY(-30px);
+ }
+ 100% {
+   opacity: 1;
+   transform: translateY(0);
+ }
+}
