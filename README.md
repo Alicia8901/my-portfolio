@@ -3,7 +3,7 @@
 Welcome to my front-end developer portfolio! This project showcases my skills, experience, and personal projects using modern web technologies.
 
 ## Live Site
-https://alicia8901.github.io/my-portfolio/
+https://aliciaosayi-portfolio.netlify.app/
 
 ## About Me
 
@@ -37,7 +37,7 @@ Hi! I'm a passionate front-end developer with a background in Chemical engineeri
 ## Contact Me
 
 Email: Aliciaosayi8901@gmail.com 
-Portfolio: (https://your-portfolio-link.netlify.app)
+https://aliciaosayi-portfolio.netlify.app/
 
 ## License
 
